@@ -24,6 +24,10 @@ A Java-based console application for enterprise payroll management, designed usi
 * **Interactive Dashboards:** Applied the Abstract Factory Pattern via a `Dashboard` interface to dynamically dictate and render role-specific views (`ManagerDashboard` vs `EmployeeDashboard`) at runtime.
 * **Performance Metrics:** Integrated Java Collections and the Stream API to cleanly map, limit, and calculate mock operational metrics (like YTD earnings and Top 3 Payslips) inline.
 
+### UC6: Input Validation
+* **Security Centralization:** Upgraded application security by introducing a centralized `ValidationService` applying Regex checks for data integrity and strong password enforcement.
+* **Granular Exceptions:** Designed an extensible, polymorphic Custom Exception hierarchy (e.g., `PasswordValidationException`) to provide granular, fail-fast error handling cleanly caught in the main thread.
+
 ## Tech Stack
 * Java
 
