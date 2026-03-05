@@ -16,6 +16,10 @@ A Java-based console application for enterprise payroll management, designed usi
 * **Payroll Logic:** Designed a comprehensive payroll calculator applying composition and aggregation to link employee profiles with salary components.
 * **Automated Processing:** Automated the processing of gross earnings and statutory deductions to generate formatted monthly payslips.
 
+### UC4: Payslip Print / Download
+* **Data Integrity:** Implemented object cloning and immutable patterns to preserve the original state of payslip records during export.
+* **File Export:** Generated independent, uniquely named text files for payslip downloads using Java File I/O operations.
+
 ## Tech Stack
 * Java
 
