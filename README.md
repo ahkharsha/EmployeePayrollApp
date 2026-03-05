@@ -12,6 +12,10 @@ A Java-based console application for enterprise payroll management, designed usi
 * **Secure Login:** Encrypted credential verification using SHA-256 hashing and polymorphic authentication logic for distinct user roles.
 * **Session Management:** Implemented secure session handling with timeout validation, login attempt limits, and role-based dashboard redirection.
 
+### UC3: Payslip Generation
+* **Payroll Logic:** Designed a comprehensive payroll calculator applying composition and aggregation to link employee profiles with salary components.
+* **Automated Processing:** Automated the processing of gross earnings and statutory deductions to generate formatted monthly payslips.
+
 ## Tech Stack
 * Java
 
