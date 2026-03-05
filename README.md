@@ -8,6 +8,10 @@ A Java-based console application for enterprise payroll management, designed usi
 * **Secure Registration:** Implemented employee creation with strict encapsulation, Regex-based input validation (email, phone, ID), and object composition for user credentials.
 * **Robust Architecture:** Centralized data persistence via file I/O and utilized a custom `ValidationException` to clearly communicate and handle invalid input errors.
 
+### UC2: User Authentication
+* **Secure Login:** Encrypted credential verification using SHA-256 hashing and polymorphic authentication logic for distinct user roles.
+* **Session Management:** Implemented secure session handling with timeout validation, login attempt limits, and role-based dashboard redirection.
+
 ## Tech Stack
 * Java
 
