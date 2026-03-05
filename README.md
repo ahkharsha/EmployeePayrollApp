@@ -20,6 +20,10 @@ A Java-based console application for enterprise payroll management, designed usi
 * **Data Integrity:** Implemented object cloning and immutable patterns to preserve the original state of payslip records during export.
 * **File Export:** Generated independent, uniquely named text files for payslip downloads using Java File I/O operations.
 
+### UC5: Dashboard Display
+* **Interactive Dashboards:** Applied the Abstract Factory Pattern via a `Dashboard` interface to dynamically dictate and render role-specific views (`ManagerDashboard` vs `EmployeeDashboard`) at runtime.
+* **Performance Metrics:** Integrated Java Collections and the Stream API to cleanly map, limit, and calculate mock operational metrics (like YTD earnings and Top 3 Payslips) inline.
+
 ## Tech Stack
 * Java
 
