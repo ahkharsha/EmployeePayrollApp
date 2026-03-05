@@ -1,9 +1,12 @@
 # Employee Payroll App
 
-A Java-based, console-driven enterprise payroll management application designed to securely handle employee records and salary processing.
+A Java-based console application for enterprise payroll management, designed using clean, strictly modular Object-Oriented Programming principles.
 
-## Overview
-This application manages employee registrations, secure role-based authentications, and detailed monthly payroll calculations. It features advanced payroll management including dynamic statutory deductions, secure read-only payslip generation (PDF/Text), interactive role-specific dashboards, and robust centralized input validation.
+## Features Implemented
+
+### UC1: Employee Registration
+* **Secure Registration:** Implemented employee creation with strict encapsulation, Regex-based input validation (email, phone, ID), and object composition for user credentials.
+* **Robust Architecture:** Centralized data persistence via file I/O and utilized a custom `ValidationException` to clearly communicate and handle invalid input errors.
 
 ## Tech Stack
 * Java
